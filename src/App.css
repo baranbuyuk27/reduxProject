@@ -1,0 +1,59 @@
+.App {
+  margin-bottom: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkgray;
+}
+.navDiv {
+  position: relative;
+}
+.itemsIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.itemsDiv {
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: white;
+}
+.cart {
+  text-align: center;
+}
+.btnTemizle {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+.cartInfo {
+  text-align: right;
+}
+.cartQuantityButton {
+  border: none;
+  background-color: white;
+}
+.cartQuantity {
+  margin-right: 8px;
+}
+
+.btnSil {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: red;
+  color: wheat;
+  cursor: pointer;
+}
